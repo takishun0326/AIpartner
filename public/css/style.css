@@ -1,0 +1,31 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootflat/2.0.4/css/bootflat.min.css');
+
+
+.navbar-brand {
+    color: #ddd;
+    font-family: 'Vidaloka', serif;
+    text-shadow: 5px 5px 15px #888;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.message-icon {
+    width: 75px;
+    height: 75px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.message-icon-name {
+    color: black;
+    font-size: 10px;
+    font: bold;
+}
+
+.last-message {
+    color: gray;
+    font-size: 7px;
+}
