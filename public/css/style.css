@@ -29,3 +29,10 @@
     color: gray;
     font-size: 7px;
 }
+
+.container-main {
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -20,11 +20,15 @@
         </nav>
     </header>
 
-    <div class="container">
-        <img class="message-icon" src="{{asset('storage/sample.jpg')}}">
-        <div class="message-icon-name">Your Partner</div>
-        <div class="last-message"> We have a gift for you.</div>
-    </div>
+    <main>
+        <div class="container-main">
+            @foreach($your_partners as $your_partner)
+            <img class="message-icon" src="{{asset('storage/sample.jpg')}}">
+            <div class="message-icon-name">{{ $your_partner->lastname }} {{$your_partner->firstname}}</div>
+            <div class="last-message">{{ $your_partner->introduction }}</div>
+            @endforeach
+        </div>
+    </main>
 </body>
 
 </html>
