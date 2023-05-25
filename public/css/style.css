@@ -12,27 +12,54 @@
     color: white;
 }
 
+.container-main {
+    width: 100%;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.wrap-chats {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.wrap-chats-child {
+    width: auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    /* border: solid; */
+    /* border-radius: 20px; */
+}
+
+.chats-child-icon {
+    padding: auto;
+}
+
+.chats-child-context {
+    margin: 25px 80px;
+
+    width: auto;
+}
+
 .message-icon {
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
     border-radius: 10%;
     object-fit: cover;
 }
 
 .message-icon-name {
     color: black;
-    font-size: 10px;
+    font-size: 20px;
     font: bold;
 }
 
 .last-message {
     color: gray;
-    font-size: 7px;
-}
-
-.container-main {
-    width: 100%;
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 15px;
 }
