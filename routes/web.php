@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/chat', 'App\Http\Controllers\ChatController@index')->name('chat.index');
+Route::get('/chat/{partner_id}', 'App\Http\Controllers\ChatController@chat_with')->name('chat.chat_with');
