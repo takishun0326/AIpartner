@@ -67,12 +67,17 @@
 .talk-container {}
 
 .talk-header {
-    /* background-color: #333; */
+    display: flex;
+    align-items: center;
+    background-color: #DDD;
     color: black;
     width: 100%;
     height: 60px;
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .talk-message-container {
@@ -83,6 +88,7 @@
 .message-container {
     width: 100%;
     height: auto;
+    padding: 10px;
 }
 
 .message-box-partner,
@@ -93,11 +99,27 @@
     border-radius: 20px;
 }
 
+.chat-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.chat-icon-box {
+    width: auto;
+    height: auto;
+    padding: 10px 0px;
+}
+
 .message-box-partner {
     background-color: #ddd;
 }
 
 .message-box-user {
     background-color: #ADD8E6;
+}
+
+.right {
     margin: 0 0 0 auto;
 }
